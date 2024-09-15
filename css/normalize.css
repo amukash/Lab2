@@ -1,0 +1,34 @@
+/* css/normalize.css */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+  color: inherit;
+  font-size: 1.2em;
+}
